@@ -61,14 +61,13 @@ RGIF_trr = rgif(I, tof_radial_rectified, r, e);
 # ================================
 # RMSE of BF trr and tof_gt_radial
 RMSE_BF = sqrt(mean((BF_trr .- tof_gt_radial).^2))
-println("The RMSE of bilateral Filter is ", RMSE_BF)
-
 # RMSE of GIF trr and tof_gt_radial
 RMSE_GIF = sqrt(mean((GIF_trr .- tof_gt_radial).^2))
-println("The RMSE of Guided Image Filter is ", RMSE_GIF)
-
 # RMSE of RGIF_trr trr and tof_gt_radial
 RMSE_RGIF = sqrt(mean((RGIF_trr .- tof_gt_radial).^2))
+
+println("The RMSE of Guided Image Filter is ", RMSE_GIF)
+println("The RMSE of bilateral Filter is ", RMSE_BF)
 println("The RMSE of Rolling Guided Image Filter is ", RMSE_RGIF)
 
 
