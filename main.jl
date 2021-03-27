@@ -15,7 +15,7 @@ omega = 31/32
 lambda = 1/1000
 haze_level = 0.03125
 
-img = load("WGIF-Julia/img/forest.jpg")
+img = load("./img/forest.jpg")
 img = channelview(img) .*255
 
 G1 = detail_enhancement(img, img, 12, 1/28, 4, "wgif")
