@@ -1,5 +1,7 @@
 # WGIF-and-GIF
-This project implements Guided image filter, Weighted guided image filter, and SD filter in Julia with its extensions. Authors: Jingying Wang (wangchy@umich.edu), Junyuan Yang (junyyang@umich.edu), Zhiheng Yin (yzhiheng@umich.edu), Yilun Zhu (allanzhu@umich.edu)).
+This project implements Guided image filter, Weighted guided image filter, and SD filter in Julia with its extensions. 
+
+Authors: Jingying Wang (wangchy@umich.edu), Junyuan Yang (junyyang@umich.edu), Zhiheng Yin (yzhiheng@umich.edu), Yilun Zhu (allanzhu@umich.edu)).
 
 ## Papers:
 K. He, J. Sun, and X. Tang. “Guided Image Filtering”. TPAMI 2013. [MATLAB version](http://kaiminghe.com/eccv10)
