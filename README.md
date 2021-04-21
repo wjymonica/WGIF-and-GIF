@@ -2,16 +2,16 @@
 This project implements Guided image filter, Weighted guided image filter, and SD filter in Julia with its extensions.
 
 ## Papers:
-K. He, J. Sun, and X. Tang. “Guided Image Filtering”. TPAMI 2013.
+K. He, J. Sun, and X. Tang. “Guided Image Filtering”. TPAMI 2013. MATLAB code link: 
 
-Z. Li et al. “Weighted Guided Image Filtering”. TIP 2015.
+Z. Li et al. “Weighted Guided Image Filtering”. TIP 2015. MATLAB code link: 
 
-Q. Zhang et al. “Rolling Guidance Filter”. ECCV 2014.
+Q. Zhang et al. “Rolling Guidance Filter”. ECCV 2014. MATLAB code link: 
 
-B. Ham, M. Cho, and J. Ponce. “Robust Guided Image Filtering Using Nonconvex Potentials”. TPAMI 2018.
+B. Ham, M. Cho, and J. Ponce. “Robust Guided Image Filtering Using Nonconvex Potentials”. TPAMI 2018. MATLAB code link: 
 
 ## Usage of Filters
-src/gif.jl contains functionn gif(...) for guided image filter.
+src/gif.jl contains functionn ```gif(...)``` for guided image filter.
 
 src/wgif.jl contains function wgif(...) and its extensions wgif_1(...), wgif_2(...), wgif_3(...), wgif_4(...) for weighted guided image filter.
 
