@@ -1,5 +1,5 @@
 # WGIF-and-GIF
-This project implements Guided image filter, Weighted guided image filter, and SD filter in Julia with its extensions. 
+This project implements Guided image filter, Weighted guided image filter, and SD filter in Julia with their extensions. 
 
 Authors: Jingying Wang (wangchy@umich.edu), Junyuan Yang (junyyang@umich.edu), Zhiheng Yin (yzhiheng@umich.edu), Yilun Zhu (allanzhu@umich.edu).
 
