@@ -22,3 +22,7 @@ src/rgif.jl contains function `rgif(...)` for rolling guided image filter.
 src/sdfilter.jl contains function `sdfilter(...)`, `asd(...)`, `agsd(...)` for SD filter, adaptive SD filter, and augmented guidence SD filter. 
 
 src/main.jl contains the default parameters of each filter and its application.
+
+HCI_depth_evaluate/testing_GIF_WGIF_RGIF.jl contains testing code for GIF, WGIF and RGIF on HCI dataset.
+
+HCI_depth_evaluate/testing_SD_Filter.jl contains testing code for SD filter, AG-SD GIF on HCI  dataset.
